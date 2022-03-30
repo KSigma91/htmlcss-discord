@@ -25,10 +25,23 @@ img {
     max-width: 100%;
 }
 
+section h1 {
+    font-size: 50px;
+    width: 400px;
+    height: 320px;
+}
+
+section p {
+    font-size: 25px;
+    line-height: 40px;
+    width: 450px;
+    height: 500px;
+}
+
 /* header */
 header {
     /* position: fixed; */
-    /* z-index: 300; */
+    z-index: 300;
     position: absolute;
     width: calc(100% - 10px);
     height: auto;
@@ -144,3 +157,13 @@ header .log-in a {
 }
 
 /* contenuto prima parte */
+.contained img {
+    float: left;
+    margin: 0 150px;
+}
+
+.contained .coldx {
+    float: left; 
+    margin: 30px 50px; 
+}
+
