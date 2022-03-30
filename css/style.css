@@ -10,7 +10,7 @@ body {
 
 /* impostazioni generali */
 .container {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 100vh;
     margin: auto;
@@ -156,14 +156,18 @@ header .log-in a {
     line-height: 80px;
 }
 
-/* contenuto prima parte */
-.contained img {
+/* impostazioni generali contenuto */
+.contained {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contained .row img {
     float: left;
-    margin: 0 150px;
+    margin-left: 80px;
 }
 
 .contained .coldx {
-    float: left; 
-    margin: 30px 50px; 
+   float: left;
+   margin-left: 150px;
 }
-
