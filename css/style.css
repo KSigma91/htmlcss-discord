@@ -8,50 +8,75 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
+/* impostazioni generali */
 .container {
     width: 100%;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* header */
 header {
     position: fixed;
     z-index: 300;
-    background: rgb(71, 71, 71);
     width: 100%;
-    height: 100px;
+    height: 100vh;
 }
 
 /* logo discord */
 header .logo-dc {
     float: left;
-    border: 1px solid white;
-    background: rgb(80, 91, 252);
-    width: 20%;
+    text-align: right;
+    width: 25%;
     height: 100px;
+}
+
+header .logo-dc img {
+    width: 30%;
+    height: 100%;
 }
 
 /* menu */
 header nav {
     float: left;
-    border: 1px solid white;
-    background: rgb(80, 91, 252);
-    width: 60%;
+    width: 50%;
     height: 100px;
+    padding: 0 150px;
+}
+
+header nav ul li {
+    list-style-type: none;  
+    float: left;
+    line-height: 100px;
+    margin-left: 50px;
 }
 
 /* accedi */
 header .log-in {
     float: left;
-    border: 1px solid white;
-    background:rgb(80, 91, 252);
-    width: 20%;
+    width: 25%;
     height: 100px;
+}
+
+header .log-in a {
+    color: #2851e0;
+    line-height: 100px;
+    vertical-align: 100px;
+    background: white;
+    border-radius: 50px;
+    padding: 12px;
 }
 
 /* contenuto header */
 .content-top {
-    background: orange;
     width: 100%;
     height: 100vh;
 }
@@ -60,24 +85,29 @@ header .log-in {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgb(202, 202, 202);
-    width: 900px;
-    height: 400px;
+    transform: translate(-50%, -80%);
+    text-align: center;
+    width: 950px;
+    height: 260px;
 }
 
-/* .content-top .list-button {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, 370%);
-} */
+.content-top .top-text h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.content-top .top-text p {
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 35px;
+    color: white;
+}
 
 .content-top .list-button {
     position: absolute;
     bottom: 50%;
     left: 50%;
-    transform: translate(-50%, 320%);
+    transform: translate(-50%, 150%);
     width: 800px;
     height: 100px;
     padding: 10px;
@@ -85,17 +115,25 @@ header .log-in {
 
 .list-button .down {
     float: left;
-    margin: 0 25px;
-    border: 1px solid green;
+    margin: 0 50px;
     background: white;
-    width: 45%;
+    border-radius: 50px;
+    width: 35%;
     height: 100%;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 80px;
 }
 
 .list-button .open {
     float: left;
-    border: 1px solid green;
-    background: rgb(10, 10, 10);
-    width: 45%;
+    background: #212427;
+    border-radius: 50px;
+    width: 50%;
     height: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 80px;
 }
