@@ -34,8 +34,8 @@ section h1 {
 section p {
     font-size: 25px;
     line-height: 40px;
-    width: 450px;
-    height: 500px;
+    width: 400px;
+    height: 250px;
 }
 
 /* header */
@@ -158,16 +158,32 @@ header .log-in a {
 
 /* impostazioni generali contenuto */
 .contained {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
 }
 
 .contained .row img {
     float: left;
-    margin-left: 80px;
+    margin-left: 180px;
 }
 
 .contained .coldx {
    float: left;
-   margin-left: 150px;
+   margin-left: 200px;
+}
+
+/* seconda parte */
+.contained #row-invert img {
+    float: right;
+    margin: 100px 200px;
+}
+
+.contained #row-invert .colsx {
+    float: right;
+    margin: 100px 50px;
+}
+
+.contained #row-invert .colsx h1 {
+    width: 400px;
+    height: 150px;
 }
