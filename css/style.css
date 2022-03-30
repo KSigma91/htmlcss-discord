@@ -7,3 +7,95 @@
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* header */
+header {
+    position: fixed;
+    z-index: 300;
+    background: rgb(71, 71, 71);
+    width: 100%;
+    height: 100px;
+}
+
+/* logo discord */
+header .logo-dc {
+    float: left;
+    border: 1px solid white;
+    background: rgb(80, 91, 252);
+    width: 20%;
+    height: 100px;
+}
+
+/* menu */
+header nav {
+    float: left;
+    border: 1px solid white;
+    background: rgb(80, 91, 252);
+    width: 60%;
+    height: 100px;
+}
+
+/* accedi */
+header .log-in {
+    float: left;
+    border: 1px solid white;
+    background:rgb(80, 91, 252);
+    width: 20%;
+    height: 100px;
+}
+
+/* contenuto header */
+.content-top {
+    background: orange;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-top .top-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(202, 202, 202);
+    width: 900px;
+    height: 400px;
+}
+
+/* .content-top .list-button {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 370%);
+} */
+
+.content-top .list-button {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 320%);
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+}
+
+.list-button .down {
+    float: left;
+    margin: 0 25px;
+    border: 1px solid green;
+    background: white;
+    width: 45%;
+    height: 100%;
+}
+
+.list-button .open {
+    float: left;
+    border: 1px solid green;
+    background: rgb(10, 10, 10);
+    width: 45%;
+    height: 100%;
+}
