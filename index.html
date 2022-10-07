@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Discord fake</title>
@@ -47,10 +51,7 @@
 
         <!-- contenuto header -->
         <jumbotron>
-
             <div class="content-top">
-                <!-- sfondo -->
-                <img src="img/jumbo.png" alt="jumbo">
                 <!-- testo intero centrale -->
                 <div class="top-text">
                     <!-- titolo -->
@@ -61,85 +62,182 @@
                     <p>
                         Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                     </p>
+                    <!-- pulsanti -->
+                    <div class="list-button">
+                        <a href="#" class="down">
+                            <i class="fas fa-long-arrow-alt-down"></i>
+                            Scarica per Mac
+                        </a>
+                        <a href="#" class="open">Apri Discord nel tuo browser</a>
+                    </div>  
                 </div>
-                <!-- pulsanti -->
-                <div class="list-button">
-                    <a href="#" class="down">&#8595; Scarica per Mac</a>
-                    <a href="#" class="open">Apri Discord nel tuo browser</a>
-                </div>             
             </div>
-
         </jumbotron>
         
-        <!-- contenuto -->
+        <!-- prima sezione -->
         <section>           
-             <!-- prima parte -->
-            <div class="contained">
-                <div class="row">
-                    <img src="img/item1.svg" alt="item1">
+            <div class="row-first">
+                <img src="img/item1.svg" alt="item1">
 
-                    <div class="coldx">
-                        <!-- titolo -->
-                        <h1>
-                            Un luogo a invito con tutto lo spazio necessario per parlare
-                        </h1>
-                        <!-- testo -->
-                        <p>
-                            I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
-                        </p>
-                    </div>
+                <div class="coldx">
+                    <!-- titolo -->
+                    <h1>
+                        Un luogo a invito con tutto lo spazio necessario per parlare
+                    </h1>
+                    <!-- testo -->
+                    <p>
+                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
+                    </p>
                 </div>
             </div>
         </section>
-
+        <!-- seconda sezione -->
         <section>
-            <!-- seconda parte -->
-           <div class="contained">
-               <div id="row-invert">
-                    <img src="img/item2.svg" alt="item2">
-
-                    <div class="colsx">
-                        <!-- titolo -->
-                        <h1>
-                            Dove trovarsi é facile
-                        </h1>
-                        <!-- testo -->
-                        <p>
-                            Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
-                        </p>
-                    </div>
-               </div>              
-           </div>
-       </section>
-
+            <div class="row-invert">
+                <div>
+                    <img class="wave-1" src="img/wave_mod.svg" alt="wave">
+                    <img class="wave-2" src="img/wave_mod.svg" alt="wave">
+                </div>
+                <img id="item2" src="img/item2.svg" alt="item2">
+                <div class="colsx">
+                    <!-- titolo -->
+                    <h1>
+                        Dove trovarsi é facile
+                    </h1>
+                    <!-- testo -->
+                    <p>
+                        Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
+                    </p>
+                </div>
+            </div>              
+        </section>
+        <!-- terza sezione -->
         <section>
-            <!-- terza parte -->
-            <div class="contained">
-                <div class="row">
-                    <img src="img/item3.svg" alt="item3">
-
-                    <div class="coldx">
-                        <!-- titolo -->
-                        <h1>
-                            Un luogo a invito con tutto lo spazio necessario per parlare
-                        </h1>
-                        <!-- testo -->
-                        <p>
-                            I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
-                        </p>
-                    </div>
+            <div class="row">
+                <img src="img/item3.svg" alt="item3">
+                <div class="coldx-2">
+                    <!-- titolo -->
+                    <h1>
+                        Da pochi a un fandom
+                    </h1>
+                    <!-- testo -->
+                    <p>
+                        Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione a accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
+                    </p>
                 </div>
             </div>
         </section>
-
+        <!-- quarta sezione -->
         <section>
-            <!-- quarta parte -->
-            
+            <div class="row-bottom">
+                <div>
+                    <img class="wave-1" src="img/wave_mod.svg" alt="wave">
+                </div>
+                <div class="col">
+                    <h1>
+                        Tecnologia affidabile per tenersi in contatto
+                    </h1>
+                    <p>
+                        Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                    </p>
+                    <img src="img/item4-big.svg" alt="item4-big">
+                    <div class="download">
+                        <img src="img/stars.svg" alt="stars">
+                        <big>
+                            Pronto a iniziare la tua avventura?
+                        </big>
+                        <a href="#">
+                            <i class="fas fa-long-arrow-alt-down"></i>
+                            Scarica per Mac
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
         </section>
 
         <!-- footer -->
         <footer>
-            <!-- chiusura pagina -->
+            <div class="footer-element">
+                <div class="first-element">
+                    <big>
+                        Il tuo posto per parlare
+                    </big>
+                    <a href="#">
+                        <img src="img/ita.png" alt="ita">
+                        italiano
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>Prodotto</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                    <ul>
+                        <li>Compagnia</li>
+                        <li>Chi siamo</li>
+                        <li>Lavora con noi</li>
+                        <li>Marchio</li>
+                        <li>Redazione</li>
+                        <li>Negozio</li>
+                    </ul>
+                    <ul>
+                        <li>Risorse</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                    <ul>
+                        <li>Norme</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
+                </div>
+                <div class="bottom-element">
+                    <img src="img/logo.svg" alt="logo-discord">
+                    <a href="#">
+                        Registrati
+                    </a>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
